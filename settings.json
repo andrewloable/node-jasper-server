@@ -1,0 +1,20 @@
+{
+    "reports":{
+        "test": {
+            "jrxml": "/jrxml/test.jrxml"
+        }
+    },
+    "drivers": {
+        "postgresql": {
+            "path": "/libs/postgresql-42.2.1.jar",
+            "class": "org.postgresql.Driver"
+        }
+    },
+    "connections": {
+        "mytestdatabase": {
+            "jdbc": "jdbc:postgresql://localhost:5432/mytestdatabase",
+            "user": "myusername",
+            "password": "mypassword"
+        }
+    }
+}

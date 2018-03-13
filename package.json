@@ -1,0 +1,29 @@
+{
+  "name": "node-jasper-server",
+  "version": "1.0.0",
+  "description": "Jasper Reports Server in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Jasper",
+    "Reports",
+    "Node"
+  ],
+  "author": "Andrew M. Loable - Loable Technologies",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "extend": "^3.0.1",
+    "fs": "0.0.1-security",
+    "java": "^0.9.0",
+    "path": "^0.12.7",
+    "sleep": "^5.1.1",
+    "tmp": "0.0.33",
+    "util": "^0.10.3"
+  }
+}
