@@ -6,6 +6,7 @@ Host Jasper Reports in NodeJS
 
 ```
 git clone git:github.com/andrewloable/jasper-node-server.git
+npm install
 ```
 
 ## Libraries
