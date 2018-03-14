@@ -12,7 +12,7 @@ npm install
 ## Libraries
 
 Put all Jasper Reports libraries (jar files) under the /libs folder.
-The easiest way to get the libraries is to copy all libraries from JasperReports Server under 
+The easiest way to get the libraries is to copy all jar files from JasperReports Server under 
 
 ```
 <jasperserver>/apache-tomcat/webapps/jasperserver/WEB-INF/lib
