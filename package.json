@@ -1,6 +1,6 @@
 {
   "name": "node-jasper-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Jasper Reports Server in NodeJS",
   "main": "index.js",
   "scripts": {

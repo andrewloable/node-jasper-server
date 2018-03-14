@@ -26,8 +26,16 @@ A sample configuration is shown below.
 ```
 {
     "reports":{
-        "test": {
+        "test1": {
             "jrxml": "/jrxml/test.jrxml"
+        },
+        "test2": {
+            "jrxml": "/jrxml/test2.jrxml",
+            "subreports":{
+                "parametername1": {
+                    "jrxml": "/jrxml/test2subreport1.jrxml"
+                }
+            }
         }
     },
     "drivers": {
