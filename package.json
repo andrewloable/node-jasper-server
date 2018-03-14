@@ -12,7 +12,9 @@
     "Node"
   ],
   "author": "Andrew M. Loable - Loable Technologies",
-  "license": "ISC",
+  "email": "andrew@loable.tech",
+  "url": "https://loable.tech",
+  "license": "MIT",
   "dependencies": {
     "async": "^2.6.0",
     "body-parser": "^1.18.2",
