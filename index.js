@@ -122,7 +122,7 @@ function generateJasperPrint(report){
 function generatePDF(report){
     var tmpFile = tmp.fileSync();
     var outputFile = tmpFile.name + ".pdf";
-    var jasperPrint = generateJasperPrint(report, jasperFile, outputFile);
+    var jasperPrint = generateJasperPrint(report);
     if (jasperPrint){
         var jasperReportsContext = java.callStaticMethodSync("net.sf.jasperreports.engine.DefaultJasperReportsContext", "getInstance");
         var exporter = new vm.jasperPdfExporter(jasperReportsContext);
