@@ -56,6 +56,32 @@ node index.js
 
 This will run an express app that listens to port 3000 and will accept connections from localhost only.
 
+## API
+
+* **/generate_pdf**
+Generate a PDF report.
+
+* **/generate_html**
+Generate an HTML report.
+
+* **/generate_rtf**
+Generate an RTF report.
+
+* **/generate_csv**
+Generate a CSV report.
+
+* **/generate_docx**
+Generate a Docx report.
+
+* **/generate_pptx**
+Generate a Pptx report.
+
+* **/generate_xlsx**
+Generate an xlsx report.
+
+* **/generate_odt**
+Generate an ODT report.
+
 ## Examples
 
 To generate a report into PDF
